@@ -1,0 +1,25 @@
+Tutorial
+
+Pode ser criado uma lista de objects
+
+            Conjunto conjunto = new Conjunto();
+
+            conjunto.lista.Add("douglas");
+
+            
+            conjunto.lista.Add("Marlon");
+            conjunto.lista.Add("50");
+
+O metodo de Continencia verifica se um elemento qualquer esta dentro da lista e retorna true.
+
+             conjunto.Continencia(50)
+
+O metodo Pertinencia verifica se o conjunto passado está contido dentro do con
+junto declarado inicialmente
+
+             List<Object> elementos = new List<Object>();
+
+            elementos.Add("douglas");
+            elementos.Add("Marlon");
+            elementos.Add("50");
+            conjunto.Pertinencia(elementos)
